@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `players` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(24) NOT NULL,
+  `password` char(64) NOT NULL,
+  `salt` char(16) NOT NULL,
+	`skin` smallint NOT NULL,
+  `score` mediumint NOT NULL,
+	`money` mediumint NOT NULL,
+	`x` float NOT NULL,
+	`y` float NOT NULL,
+	`z` float NOT NULL,
+	`a` float NOT NULL,
+	`interior` smallint NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `Name` (`name`))
