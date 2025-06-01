@@ -1,30 +1,12 @@
 # Bayside_Demo
 Simple SA-MP gamemode with MySQL R41-4 Login/Register and house system.
-Tested on Windows 11 with SA-MP 0.3.7-R5-2-MP, XAMPP 8.2.12 and phpMyAdmin 5.2.1
+Tested on Windows 11 with SA-MP 0.3.7-R5-2-MP, XAMPP 8.2.12 and phpMyAdmin 5.2.1.
 
 **Features**
 - MySQL R41-4 Login/Register system (ORM)
 - MySQL R41-4 house system (CACHE)
 - Vehicles from .csv file
 - Class selection
-
-**Files**
-server/
-├── gamemodes
-    ├── bayside.pwn
-    ├── bayside.amx
-├── include
-    ├── a_mysql.inc
-    ├── a_samp.inc
-    ├── sscanf2.inc
-    ├── streamer.inc
-    ├── zcmd.inc
-├── plugins
-    ├── mysql.dll
-    ├── sscanf.dll
-    ├── streamer.dll
-├── scriptfiles
-    ├── tierra.csv
 
 **Credits**
 - SA-MP Team
