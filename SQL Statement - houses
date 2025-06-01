@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `houses` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `type` varchar(32) NOT NULL,
+  `price` int NOT NULL,
+  `owned` tinyint NOT NULL,
+  `locked` tinyint NOT NULL,
+  `owner` varchar(24) DEFAULT 'FOR SALE',
+  `in_id` int NOT NULL,
+  `ex_x` float NOT NULL,
+  `ex_y` float NOT NULL,
+  `ex_z` float NOT NULL,
+  `in_x` float NOT NULL,
+  `in_y` float NOT NULL,
+  `in_z` float NOT NULL,
+  PRIMARY KEY (`id`))
